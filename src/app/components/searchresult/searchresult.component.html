@@ -1,12 +1,21 @@
 <div class="col-sm-6 col-md-3">
   <div class="thumbnail">
-    <img src="{{result.thumbnailUrl}}">
-    <div class="caption">
-      <h3>{{result.title}}</h3>
-      <p>{{result.description}}</p>
-      <p>
-        <a href="{{result.videoUrl}}" class="btn btn-default" role="button" type="button">Watch</a>
-      </p>
-    </div>
+    <md-card>
+      <img md-card-img src="{{result.thumbnailUrl}}">
+      <div class="caption">
+        <md-card-title>
+          {{result.title}}
+        </md-card-title>
+        <md-card-content>
+          {{result.description}}
+        </md-card-content>
+        <md-card-actions>
+          <button md-raised-button>
+            <a href="{{result.videoUrl}}"> Watch </a>
+          </button>
+          <!--<a href="{{result.videoUrl}}" class="btn btn-default" role="button" type="button">Watch</a>-->
+        </md-card-actions>
+      </div>
+    </md-card>
   </div>
 </div>

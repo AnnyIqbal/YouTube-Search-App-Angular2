@@ -6,7 +6,7 @@ import { YouTubeService } from '../../services/youtube.service';
 @Component({
    selector: 'search-box',
    templateUrl: './search-box.component.html',
-   styleUrls: [`./search-box.component.css`]
+   styleUrls: ['./search-box.component.css']
 })
 
 export class SearchBoxComponent implements OnInit {
