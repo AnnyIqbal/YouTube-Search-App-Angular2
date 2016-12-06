@@ -1,0 +1,23 @@
+.card {
+    width: 500px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    box-shadow: 5px 5px 2px cornflowerblue;
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.action {
+    text-align: center;
+}
+/*.button {
+    background-color: blue;
+}
+.anchor {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}*/

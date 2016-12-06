@@ -1,0 +1,15 @@
+<md-card class="card">
+  <md-card-title class="page-header">
+    <img src="../../../assets/images/youtube-logo.png" alt="youTube Logo" class="size" />
+  </md-card-title>
+  <md-card-content class="content">
+    <div class="row">
+      <div class="input-group input-group-lg col-md-12">
+        <search-box (loading)="loading = $event" (results)="updateResults($event)"></search-box>
+      </div>
+    </div>
+    <div class="row">
+      <search-result *ngFor="let result of results" [result]="result"></search-result>
+    </div>
+  </md-card-content>
+</md-card>

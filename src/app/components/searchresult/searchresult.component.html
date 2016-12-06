@@ -1,0 +1,19 @@
+<md-card class="card">
+   <md-card-header class="header">
+      <md-card-title class="title"> {{result.title}} </md-card-title>
+   </md-card-header>
+   <br>
+   <img md-card-image src="{{result.thumbnailUrl}}">
+   <md-card-content>
+      <p> {{result.description}} </p>
+   </md-card-content>
+       <md-card-actions class="action">
+         <!--<button md-raised-button class="button">-->
+            <a href="{{result.videoUrl}}" class="anchor"> 
+               Watch 
+            </a>
+         <!--</button>-->
+      <br><br>
+    </md-card-actions>
+</md-card>
+<br><br>
