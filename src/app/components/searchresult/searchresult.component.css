@@ -1,0 +1,12 @@
+.card {
+    width: 500px;
+    border: 1px solid blue;
+    align-items: center;
+}
+.title {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.action {
+    text-align: center;
+}
