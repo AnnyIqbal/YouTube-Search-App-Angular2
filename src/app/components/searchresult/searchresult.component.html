@@ -1,16 +1,23 @@
 <md-card class="card">
-  <img md-card-img src="{{result.thumbnailUrl}}">
-  <div class="caption">
-    <md-card-title class="title">
-      {{result.title}}
-    </md-card-title>
-    <md-card-content>
-      {{result.description}}
-    </md-card-content>
-    <md-card-actions class="action">
-      <button>
-        <a href="{{result.videoUrl}}" md-raised-button color="primary" class="button" type="button"> Watch </a>
-      </button>
+   <md-card-header class="header">
+      <md-card-title class="title"> {{result.title}} </md-card-title>
+   </md-card-header>
+   <br>
+   <img md-card-image src="{{result.thumbnailUrl}}">
+   <md-card-content>
+      <p> {{result.description}} </p>
+   </md-card-content>
+       <md-card-actions class="action">
+         <button md-raised-button class="button">
+            <a href="{{result.videoUrl}}" target="_blank" class="anchor"> 
+               Watch 
+            </a>
+         </button>
+
+      <!--<button md-raised-button color="primary">
+        <a href="{{result.videoUrl}}" class="button" > Watch </a>
+      </button>-->
+      <br><br>
     </md-card-actions>
-  </div>
 </md-card>
+<br><br>
