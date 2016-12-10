@@ -13,10 +13,6 @@
 .action {
     text-align: center;
 }
-<<<<<<< HEAD
-/*.button {
-    background-color: blue;
-=======
 .button {
     background-color: blue;
     width: 100%;
@@ -24,14 +20,10 @@
 .button :hover {
     background-color: white;
     border: 2px solid blue;
->>>>>>> be0d0e3e30e3d729866fe543baab5351b2aa3caf
 }
 .anchor {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-<<<<<<< HEAD
-}*/
-=======
 }
->>>>>>> be0d0e3e30e3d729866fe543baab5351b2aa3caf
+
