@@ -1,5 +1,6 @@
 .searchbox {
-    width: 100%;
+    width: 85%;
     height: 25px;
     padding: 5px;
+    margin-left: 6%;
 }

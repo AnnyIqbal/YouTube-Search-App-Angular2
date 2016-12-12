@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 import { SearchResult } from '../../model/search-result';
 
 @Component({
@@ -10,8 +9,6 @@ import { SearchResult } from '../../model/search-result';
 export class YouTubeSearchComponent {
   results: SearchResult[];
   // loadingGif: string = ((<any>window).__karma__) ? '' : require('images/loading.gif');
-
-constructor(private route: Router) {}
 
   updateResults(results: SearchResult[]): void {
     this.results = results;

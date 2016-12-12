@@ -15,7 +15,7 @@ import { SearchResult } from './model/search-result';
 
 const ROUTES: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'watch', redirectTo: 'url'},
+  { path: 'watch/:url', redirectTo: 'url'},
   // `https://www.youtube.com/watch?v=${SearchResult.id}`},
   // , component: SearchResultComponent },
   { path: 'home', component: YouTubeSearchComponent },
