@@ -7,13 +7,18 @@
    <md-card-content>
       <p> {{result.description}} </p>
    </md-card-content>
-       <md-card-actions class="action">
-         <!--<button md-raised-button class="button">-->
-            <a href="{{result.videoUrl}}" class="anchor"> 
-               Watch 
-            </a>
-         <!--</button>-->
+
+       <!--<md-card-actions class="action">-->
+         <button md-fab color="warn" (click)="routeToVideo(result.videoUrl)">
+               <md-icon class="md-24">play_arrow</md-icon>
+
+            <!--class="button">-->
+            <!--<a href="{{result.videoUrl}}" target="_blank"> -->
+               <!--class="anchor"-->
+               <!--Watch -->
+            <!--</a>-->
+         </button>
       <br><br>
-    </md-card-actions>
+    <!--</md-card-actions>-->
 </md-card>
 <br><br>
