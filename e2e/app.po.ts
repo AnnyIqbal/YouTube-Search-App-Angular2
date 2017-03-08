@@ -1,6 +1,6 @@
-import { browser, element, by } from 'protractor/globals';
+import { browser, element, by } from 'protractor';
 
-export class Angular2MaterialPage {
+export class UTubeSearchAppPage {
   navigateTo() {
     return browser.get('/');
   }

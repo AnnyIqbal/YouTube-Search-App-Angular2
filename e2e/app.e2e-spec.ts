@@ -1,10 +1,10 @@
-import { Angular2MaterialPage } from './app.po';
+import { UTubeSearchAppPage } from './app.po';
 
-describe('angular2-material App', function() {
-  let page: Angular2MaterialPage;
+describe('u-tube-search-app App', () => {
+  let page: UTubeSearchAppPage;
 
   beforeEach(() => {
-    page = new Angular2MaterialPage();
+    page = new UTubeSearchAppPage();
   });
 
   it('should display message saying app works', () => {
